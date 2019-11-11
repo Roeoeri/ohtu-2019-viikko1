@@ -16,7 +16,7 @@ public class Varasto {
         saldo = 0;     // oletus: varasto on tyhjä
     }
 
-public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
+    public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
 
         this.tilavuus = (Math.abs(tilavuus)+tilavuus)/2;
        
